@@ -270,7 +270,8 @@ void Error_Handler(void)
 
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
  <img width="1369" height="929" alt="image" src="https://github.com/user-attachments/assets/b4e6b713-1106-4862-80a1-99ab5d7eae7d" />
-
+ ## LANDSCAPE:
+ <img width="1164" height="807" alt="image" src="https://github.com/user-attachments/assets/eaa50cf7-c93d-48ed-bd6a-cece9022286f" />
 
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
 FOR PULSE AT 500:
