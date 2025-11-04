@@ -1,7 +1,7 @@
 # EXPERIMENT 07 SQUARE WAVE GENERATION AT THE OUTPUT PIN USING TIMER
 # NAME : MOHAN RAJ.S
 # REG NO : 212224100036
-# DATE : 
+# DATE : 27/10/2025
 ### Aim:
 To generate a PWM wave at the timer pin output and  simuate it on  proteus using an virtual oscilloscope  
 
@@ -261,34 +261,38 @@ void Error_Handler(void)
 }
 ~~~
 ## Output screen shots of proteus  :
- 
- 
+ PULSE AT 500:
+ <img width="1040" height="657" alt="image" src="https://github.com/user-attachments/assets/a2dd32ed-50ba-409e-86da-479322993a00" />
+ PULSE AT 700:
+ <img width="1037" height="664" alt="image" src="https://github.com/user-attachments/assets/8d96681b-20b4-4e6b-afd8-017de0dd2d07" />
+ PULSE AT 900:
+ <img width="1033" height="658" alt="image" src="https://github.com/user-attachments/assets/a507fa7d-5e65-463d-b62a-6452aee42116" />
+
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
  <img width="1369" height="929" alt="image" src="https://github.com/user-attachments/assets/b4e6b713-1106-4862-80a1-99ab5d7eae7d" />
 
 
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
-FOR PULSE AT 500
+FOR PULSE AT 500:
 
-TON = 
-TOFF=
-TOTAL TIME = 
-FREQUENCY = 1/(TOTAL TIME)
+TON = 30ms
+TOFF= 8 ms
+TOTAL TIME = 30ms+8ms = 38ms
+FREQUENCY = 1/38ms = 0.026mhz = 26hz
 
-FOR PULSE AT 700
+FOR PULSE AT 700:
 
-TON = 
-TOFF=
-TOTAL TIME = 
-FREQUENCY = 1/(TOTAL TIME)
+TON = 44ms
+TOFF= 4.5ms
+TOTAL TIME = 44ms+4.5ms = 48.5ms
+FREQUENCY = 1/48.5ms = 0.20mhz = 20hz
 
+FOR PULSE AT 900:
 
-FOR PULSE AT 900
-
-TON = 
-TOFF=
-TOTAL TIME = 
-FREQUENCY = 1/(TOTAL TIME)
+TON = 56ms
+TOFF= 2ms
+TOTAL TIME = 56ms+2ms = 58ms
+FREQUENCY = 1/58ms = 0.017mhz = 17hz
 
 
 ## Result :
